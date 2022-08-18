@@ -39,6 +39,10 @@ export async function doSetup(setup: any, config: any, options: Options) {
       name: "TypeScript",
       value: "typescript",
     },
+    {
+      name: "Python",
+      value: "python",
+    },
   ];
   if (previews.golang) {
     choices.push({
